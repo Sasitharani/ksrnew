@@ -3,7 +3,7 @@ import CardsCarousel from './CardsCarousel';
 
 export default function Front() {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen p-4 bg-opacity-90 gap-4">
+    <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen p-4 bg-opacity-90 gap-4 mt-24">
       {/* First Column */}
       <div className="bg-white border-4 border-green-800 rounded-lg p-6 max-w-lg w-full text-center">
         <p className="text-lg text-gray-700">
