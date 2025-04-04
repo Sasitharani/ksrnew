@@ -26,7 +26,7 @@ const CardsCarousel = () => {
                     viewport={{ once: true }}
                     variants={animationVariants}
                 >
-                    <h2 className="text-xl font-semibold mb-2">Cards Transition Carousel</h2>
+                    <h2 className="text-xl font-semibold mb-2"></h2>
                     <div className="w-96 h-96 mx-auto"> {/* Standard size for the div */}
                         <Swiper
                             modules={[EffectCards, Pagination, Autoplay]} // Added EffectCards module
